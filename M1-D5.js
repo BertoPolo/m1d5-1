@@ -31,12 +31,24 @@ console.log(areaResult)
 /* WRITE YOUR ANSWER HERE */
 
 
+
+const crazySum = function( number1 , number2 ){
+    if(number1===number2){
+    return (number1 + number2)*3;
+    }else{
+    (number1 + number2)
+    }
+}
+console.log(crazySum)
+
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+const crazyDiff = function()
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
